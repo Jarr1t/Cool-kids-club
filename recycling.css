@@ -16,6 +16,22 @@ iframe{
 body{
     font-size: 1.5rem;
 }
+header{
+    position: sticky;
+    top:0;
+    background-color: #495F41;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    height: 70px;
+}
+.nav-buttons{
+    display: flex;
+    width: 400px;
+    height: 70px;
+    justify-content: space-between;
+}
 
 .form-container{
     display: flex;
