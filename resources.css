@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     margin: auto;
 }
 
@@ -11,4 +11,24 @@ body {
 img .card-img-top {
     width: 500px;
     height: auto;
+}
+
+.container-fluid {
+    margin: 60px;
+}
+
+.card img {
+    height: 500px;
+    max-height: 290px;
+    max-width: 290px;
+}
+
+hr {
+   
+    border: none; 
+    height: 12px; 
+    background: black; 
+    margin-bottom: 50px; 
+    margin-bottom: 10px;
+   
 }
