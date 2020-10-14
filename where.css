@@ -8,5 +8,9 @@
     max-width: 700px;
 }
 .all-maps {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
