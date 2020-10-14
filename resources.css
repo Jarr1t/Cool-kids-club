@@ -3,11 +3,6 @@ body {
     margin: auto;
 }
 
-img .card-img-top {
-    width: 500px;
-    height: auto;
-}
-
 .container-fluid {
     margin: 60px;
 }
@@ -70,7 +65,7 @@ hr {
         position: relative;
         left: 40px;
     }
-    h1{
+    .h1{
         position: relative;
         right: 50px;
     }
@@ -126,7 +121,7 @@ hr {
     hr {
         width: 1300px;
     }
-    h1 {
+    .h1 {
        position: relative;
        left: 40px;
     }
@@ -145,7 +140,7 @@ hr {
         position: relative;
         left: 35px;
     }
-    h1{
+    .h1{
        position: relative;
        left: -35px;
     }
