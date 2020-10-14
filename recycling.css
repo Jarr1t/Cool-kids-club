@@ -1,13 +1,14 @@
 body{
     margin: 0;
     font-size: 1.5rem;
-    background-color:#587B7F;
+    background-color:#B3AF8F;
     font-family: Gill Sans, sans-serif;
 }
 
 img{
     max-width: 200px;
     max-height: 300px;
+    border: solid black 3px;
 }
 header{
     position: sticky;
@@ -128,19 +129,21 @@ input, label, button {
     display:flex;
     justify-content: flex-end;
     width: 750px;
-    background-color: #CFEE9E;
+    background-color: #9B4631;
     padding: 20px;
     margin: 10px;
     border: solid 5px;
+    border-radius: 20%
 }
 .Olivia{
     display:flex;
     justify-content: flex-end;
     width: 750px;
-    background-color: #CFEE9E;
+    background-color: #88665D;
     padding: 20px;
     margin: 10px;
     border: solid 5px;
+    border-radius: 20%
 }
 .Jas{
     display: flex;
@@ -150,10 +153,11 @@ input, label, button {
     display:flex;
     justify-content: flex-end;
     width: 700px;
-    background-color: #CFEE9E;
+    background-color: #9B4631;
     padding: 20px;
     margin: 10px;
     border: solid 5px;
+    border-radius: 20%
 }
 
 
