@@ -9,25 +9,127 @@
             <script src="https://climateclock.world/widget-v2.js" async></script>
     <climate-clock />
         </section>
-        <section class="form-container">
-            <form id="form-data">
-                <h1>Title</h1>
-                <label for="que-1">Placeholder</label>
-                <input type="text" id="que-1">
-                <label for="que-2">Placeholder</label>
-                <input type="text" id="que-2">
-                <label for="que-1">Placeholder</label>
-                <input type="text" id="que-1">
-                <label for="que-2">Placeholder</label>
-                <input type="text" id="que-2">
-                <label for="que-1">Placeholder</label>
-                <input type="text" id="que-1">
-                <label for="que-2">Placeholder</label>
-                <input type="text" id="que-2">
-                <button id="submit">Submit</button>
-                <!-- The button is a work around since the submit type of input refreshes page -->
-            </form>
+        <section class="form-selection">
+            <div id="form-container" class="form-container" >
+                <div class="img-container">
+                    <div class="form-img"></div>
+                </div>
+                <form id="form-data">
+                    <h1>Know your recycling?</h1>
+                    <!-- ten questions -->
+                    <label for="que-1">
+                        Where does your trash go?
+                        <br>
+                        <label>
+                            <input type="radio" class="que-1" id="green-bin" name="green-bin">
+                            Green Bin
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" class="que-1" id="blue-bin" name="blue-bin">
+                            Blue Bin
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" class="que-1" id="black-bin" name="black-bin">
+                            Black Bin
+                        </label>
+                    </label>
+                    <label for="que-2">
+                        What Percent of Trash in NYC is recycled?
+                        <br>
+                        <label>
+                            <input type="radio" class="que-2" id="amount-recycled" name="que-2">
+                            18% of Home Trash, 
+                            25% Business Trash
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" class="que-1" id="amount-recycled-2" name="que-2">
+                            25% of Home Trash, 
+                            18% Business Trash
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" class="que-1" id="amount-recycled-3" name="que-2">
+                            30% of Home Trash, 
+                            45% Business Trash
+                        </label>
+                    </label>
+                    <!-- <input type="number" id="que-2"> -->
+                    <label for="que-3">
+                        Should we recycle?
+                        <label>
+                            <input type="radio" class="que-3" id="no-recycling" name="que-3">
+                            NO
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" class="que-3" id="yes-recycling" name="que-3">
+                            Yes?
+                        </label>
+                    </label>
+                    <label for="que-4">
+                        How much would recycling help our planet?
+                        
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-4" id="global-warming" name="que-4">
+                            Reduce Global Warming?
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-4" id="poor" name="que-4">
+                            Make us poor
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-4" id="kills-children" name="que-4">
+                            Kills children
+                        </label>
+                    </label>
+                    <!-- <input type="text" id="que-4"> -->
+                    <label for="que-5">
+                        What can be recycled?
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-5" id="tele" name="telephone">
+                            Telephone
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-5" id="satellite" name="satellite">
+                            Satellite Dishes
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-5" id="binder-metal" name="binder-metal">
+                            Binder metal
+                        </label>
+                        <br>
+                        <!-- These can't be recycled -->
+                        <label>
+                            <input type="checkbox" class="que-5" id="plastic-film" name="plastic-film">
+                            Plastic film
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-5" id="binder-plastic" name="binder-plastic">
+                            Binder plastic
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" class="que-5" id="pvc" name="pvc">
+                            PVC pipes
+                        </label>
 
+                    </label>
+
+                    </label>
+                    <button id="submit">Submit</button>
+                    <!-- The button is a work around since the submit type of input refreshes page -->
+                </form>
+            </div>
         </section>
         <footer>
             <div class="footer-content">
