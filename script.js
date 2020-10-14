@@ -13,9 +13,13 @@ const quizRes = {
     `,
     2: `Yes you should recycle. Can't think of a reason not to since it's imperative to prevent the amount of trash being produced 
     that ruins our environment. `,
-    3: `Recycling would help our planet by `,
+    3: `Recycling would help our planet by diminishing the impact on our envirnemnt and climate change. Climate change specifically 
+    is a huge factor as to why you should recycle, as it is perdicted that if regular non-eco friendly policies and practices, the 
+    average world temperature will increase by 10 degrees. These changes have been linked to heat waves, droughts, heavier rain and 
+    stronger hurricanes. Resource can be found <a href="https://www.nrdc.org/stories/global-warming-101#warming">here<a>`,
     4: `NYC has a page listing what can and can't be recycled at <a href="https://portal.311.nyc.gov/article/?kanumber=KA-02013">
-    here.</a> Essentially the ` 
+    here.</a> Essentially there are rules that make it easier for those sorting trash to find and set aside recyclables for reuse. 
+    Ignoring these rules can make it more economically benefitial to simply not recycle. ` 
 }
 
 const quizColor = [];
