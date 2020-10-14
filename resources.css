@@ -42,8 +42,105 @@ hr {
 
 
 /*Responsive*/
-@media(max-width: 650px){
-    hr{
-     background-color:blue;    
+@media(min-width: 500px){
+        #cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .card img {
+        height: 500px;
+        max-height: 290px;
+        max-width: 290px;
+        border-radius: 4%;
+    }
+    .card {
+        border-radius: 4%;
+        background-color: #9B4631;
+        box-shadow: 5px 10px 8px #888888;
+        height: 537px;
+        width: 300px;
+        position: relative;
+        left: 40px;
+    }
+    h1{
+        position: relative;
+        right: 50px;
+    }
+   
+}
+@media(min-width: 660px){
+        #cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .card img {
+        height: 500px;
+        max-height: 290px;
+        max-width: 290px;
+        border-radius: 4%;
+    }
+    .card {
+        border-radius: 4%;
+        background-color: #9B4631;
+        box-shadow: 5px 10px 8px #888888;
+        height: 537px;
+        width: 300px;
+        position: relative;
+        left: 150px;
+    }
+}
+@media(min-width: 800px){
+        #cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .card img {
+        height: 500px;
+        max-height: 290px;
+        max-width: 290px;
+        border-radius: 4%;
+    }
+    .card {
+        border-radius: 4%;
+        background-color: #9B4631;
+        box-shadow: 5px 10px 8px #888888;
+        height: 537px;
+        width: 300px;
+        
+    }
+}
+@media(min-width: 1000px){
+   
+    hr {
+        width: 1300px;
+    }
+    h1 {
+       position: relative;
+       left: 40px;
+    }
+    header{
+        width: 1300px;
+    }
+    
+}
+
+@media(min-width: 1430px){
+    
+    header{
+        width: 1440px;
+    }
+    .card {
+        position: relative;
+        left: 35px;
+    }
+    h1{
+       position: relative;
+       left: -35px;
     }
 }
