@@ -1,8 +1,8 @@
 body{
     margin: 0;
     font-size: 1.5rem;
-    background-color:#B3AF8F;
-    font-family: Gill Sans, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: 'Viga', sans-serif;
 }
 
 img{
@@ -19,9 +19,10 @@ header{
     align-items: center;
     border: solid black 3px;
     z-index: 10;
+    padding-left: 3px;
     height: 55px;
     color: #DCE2BD;
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Viga', sans-serif;
 }
 .nav-buttons{
     display: flex;
@@ -43,7 +44,7 @@ article{
     flex-wrap: wrap;
     justify-content: center;
     width: 900px;
-    font-family: Gill Sans, sans-serif;
+    font-family: 'Viga', sans-serif;
 }
 .video{
     display: flex;
@@ -195,21 +196,21 @@ input:focus {
     display:flex;
     justify-content: flex-end;
     width: 750px;
-    background-color: #9B4631;
+    background-color: rgba(141, 171, 127, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     margin: 10px;
-    border: solid 5px;
-    border-radius: 20%
+    border-radius: 50px;
 }
 .Olivia{
     display:flex;
     justify-content: flex-end;
     width: 750px;
-    background-color: #88665D;
+    background-color: rgba(141, 171, 127, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     margin: 10px;
-    border: solid 5px;
-    border-radius: 20%
+    border-radius: 50px;
 }
 .Jas{
     display: flex;
@@ -219,11 +220,11 @@ input:focus {
     display:flex;
     justify-content: flex-end;
     width: 700px;
-    background-color: #9B4631;
+    background-color: rgba(141, 171, 127, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     margin: 10px;
-    border: solid 5px;
-    border-radius: 20%
+    border-radius: 50px;
 }
 
 footer a{
