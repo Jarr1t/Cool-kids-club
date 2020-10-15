@@ -13,7 +13,11 @@ const quizRes = {
     `,
     2: `Yes you should recycle. Can't think of a reason not to since it's imperative to prevent the amount of trash being produced 
     that ruins our environment. `,
-    3: `Recycling would help our planet by `,
+    3: `Recycling would help our planet by conserving energy, reducing air and water pollution, and conservation of natural resources.
+    According to <a href="https://lbre.stanford.edu/pssistanford-recycling/frequently-asked-questions/frequently-asked-questions-benefits-recycling">
+    Standford</a>, "The paper, glass, metals, plastic, and organic material Stanford recycled in 2016 saved a total of about 70,481 million BTUs of 
+    energy; enough energy to power nearly 613 homes for one year. Or said another way, conserved 12,131 barrels of oil or 567,3014 gallons of gasoline."
+    `,
     4: `NYC has a page listing what can and can't be recycled at <a href="https://portal.311.nyc.gov/article/?kanumber=KA-02013">
     here.</a> Essentially the ` 
 }
