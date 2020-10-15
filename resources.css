@@ -1,16 +1,23 @@
 body {
     background-color: #b3af8f;
+<<<<<<< HEAD
     margin: auto;
     font-size: 1.5rem;
 }
+=======
+>>>>>>> bec4e5fb8aa0632cffe61b0440704d1419804558
 
-.container-fluid {
-    margin: 60px;
 }
+
+
 #cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: start;
+    position: relative;
+    left: -90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .card img {
@@ -26,6 +33,10 @@ body {
     background-color: #9B4631;
     box-shadow: 5px 10px 8px #888888;
 }
+.h1{
+    margin-top: 20px;
+    text-align: center;
+}
 
 hr {
     position: relative;
@@ -34,12 +45,18 @@ hr {
     height: 12px; 
     background: black; 
     margin-bottom: 50px; 
-    margin-bottom: 10px;
+    left: 9px;
    
 }
 
 #card-1 {
     background-color: #88665D;
+}
+
+footer{
+    background-color: #87b438;
+    height: 35px;
+    margin-top: 10px;
 }
 
 
@@ -99,7 +116,8 @@ hr {
         #cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-end;
+       
     }
     
     .card img {
@@ -117,32 +135,32 @@ hr {
         
     }
 }
-@media(min-width: 1000px){
+/*@media(min-width: 1000px){*/
    
-    hr {
-        width: 1300px;
-    }
-    .h1 {
-       position: relative;
-       left: 40px;
-    }
-    header{
-        width: 1300px;
-    }
+/*    hr {*/
+/*        width: 1300px;*/
+/*    }*/
+/*    .h1 {*/
+/*       position: relative;*/
+/*       left: 40px;*/
+/*    }*/
+/*    header{*/
+/*        width: 1300px;*/
+/*    }*/
     
-}
+/*}*/
 
-@media(min-width: 1430px){
+/*@media(min-width: 1430px){*/
     
-    header{
-        width: 1440px;
-    }
-    .card {
-        position: relative;
-        left: 35px;
-    }
-    .h1{
-       position: relative;
-       left: -35px;
-    }
-}
+/*    header{*/
+/*        width: 1440px;*/
+/*    }*/
+/*    .card {*/
+/*        position: relative;*/
+/*        left: 35px;*/
+/*    }*/
+/*    .h1{*/
+/*       position: relative;*/
+/*       left: -35px;*/
+/*    }*/
+/*}*/

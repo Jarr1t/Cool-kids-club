@@ -64,17 +64,6 @@ input[type=submit] {
     background-color: #87b438;
     border: solid 5px;
 }
-
-/* Footer */
-
-/*footer {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: flex-end;*/
-/*    padding: 20px 20px;*/
-    /*background-color: black;*/
-/*}*/
-
 .us{
     display: flex;
     justify-content: center; 
@@ -118,11 +107,9 @@ input[type=submit] {
     margin: 10px;
     border-radius: 50px;
 }
-
-footer a{
-    text-decoration: none;
-    color: #2E5339;
-    display: inline;
+footer{
+    background-color: #87b438;
+    height: 35px;
 }
 
 .vid{

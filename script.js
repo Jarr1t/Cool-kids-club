@@ -11,11 +11,19 @@ const quizRes = {
     ship it back to the U.S. As such, the U.S is having trouble handling the amount of trash to sort through, making it much more
     efficient to reuse plastic and other products rather than placing plastic in recycling and buying a new one.
     `,
-    2: `Yes you should recycle. Can't think of a reason not to since it's imperative to prevent the amount of trash being produced 
-    that ruins our environment. `,
-    3: `Recycling would help our planet by `,
+    2: `Yes you should recycle. Can't think of a reason not to since it's imperative to minimize the amount of trash being produced and 
+    subsequently ruining our envirnment. According to <a href="https://www.pewresearch.org/fact-tank/2019/04/18/a-look-at-how-people-around-the-world-view-climate-change/">
+    pewResearch</a>, typically people who are less education are less likely to be concerned about climate change so we implore you to 
+    take a second to internalize what we are telling you; it is imperitive that we make stronger attempts to recycle. `,
+    3: `Recycling would help our planet by conserving energy, reducing air and water pollution, and conservation of natural resources.
+    According to <a href="https://lbre.stanford.edu/pssistanford-recycling/frequently-asked-questions/frequently-asked-questions-benefits-recycling">
+    Standford</a>, "The paper, glass, metals, plastic, and organic material Stanford recycled in 2016 saved a total of about 70,481 million BTUs of 
+    energy; enough energy to power nearly 613 homes for one year. Or said another way, conserved 12,131 barrels of oil or 567,3014 gallons of gasoline."
+    `,
     4: `NYC has a page listing what can and can't be recycled at <a href="https://portal.311.nyc.gov/article/?kanumber=KA-02013">
-    here.</a> Essentially the ` 
+    here.</a> Essentially there are certain materials that can't be recycled due to them being a chemical hazrd or incapable of reuse. 
+    However this should not stop you from recycling as there's a simple list of what can and can't be recycled and the pros of recycling 
+    are too important to keep you from reycling.` 
 }
 
 const quizColor = [];
@@ -44,7 +52,7 @@ function revealAnswers(info){
     if(info["yes-recycling"]){
         quizColor.push("green");
     }else{
-        quizColor.push("green");
+        quizColor.push("red");
     }
 
     if(info["global-warming"]){
@@ -53,7 +61,7 @@ function revealAnswers(info){
         quizColor.push("red");
     }
 
-    if(info["plastic-film"] || info["binder-plastic"] || info["pvc]"]){
+    if(info["plastic-film"] || info["binder-plastic"] || info["pvc"]){
         quizColor.push("red");
     } else {
         quizColor.push("green");
