@@ -79,7 +79,7 @@ input[type=submit] {
 .Jarrit{
     display:flex;
     justify-content: flex-end;
-    width: 800px;
+    width: 850px;
     background-color: rgba(141, 171, 127, 0);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
@@ -89,7 +89,7 @@ input[type=submit] {
 .Olivia{
     display:flex;
     justify-content: flex-end;
-    width: 800px;
+    width: 850px;
     background-color: rgba(141, 171, 127, 0);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
@@ -103,7 +103,7 @@ input[type=submit] {
 .Jason{
     display:flex;
     justify-content: flex-end;
-    width: 800px;
+    width: 850px;
     background-color: rgba(141, 171, 127, 0);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
