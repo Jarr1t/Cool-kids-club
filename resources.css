@@ -1,16 +1,31 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 body {
     background-color: #b3af8f;
     margin: auto;
+    width: 100%;
     font-size: 1.5rem;
-    font-family: 'Viga', sans-serif;
+    /* font-family: 'Viga', sans-serif; */
+}
+
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #cards {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: start;
+    flex-wrap: wrap;
     position: relative;
-    left: -90px;
+    /* left: -90px; */
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -18,16 +33,29 @@ body {
 .card img {
     height: 500px;
     max-height: 290px;
-    max-width: 290px;
+    min-width: 100%;
     border-radius: 4%;
     position: relative;
-    left: 3.5px;
+    border: 0;
+    /* left: 3.5px; */
 }
 .card {
     border-radius: 4%;
     background-color: #9B4631;
     box-shadow: 5px 10px 8px #888888;
     margin: 20px 20px;
+    padding: 20px 15px;
+}
+
+.nav-buttons{
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-text{
     font-size: 15px;
@@ -45,7 +73,7 @@ body {
 
 hr {
     position: relative;
-    right: 60px;
+    width: 90%;
     border: none; 
     height: 12px; 
     background: black; 
@@ -64,82 +92,119 @@ footer{
     margin-top: 10px;
 }
 
+.col-md-4{
+    max-width: 100%;
+    display: flex;
+}
 
 /*Responsive*/
 @media(min-width: 500px){
-        #cards {
+    #cards {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
     
     .card img {
         height: 500px;
         max-height: 290px;
-        max-width: 290px;
+        max-width: 100%;
         border-radius: 4%;
+        border: 0;
+
     }
     .card {
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
-        position: relative;
-        left: 40px;
+        min-height: 537px;
+        max-width: 300px;
+        padding: 20px 15px;
+        /* position: relative;
+        left: 40px; */
     }
     .h1{
         position: relative;
-        right: -7px;
+        /* right: -7px; */
         top: 20px;
         margin-bottom: 0;
     }
-   
-}
-@media(min-width: 660px){
-        #cards {
+    
+    .col-md-4{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* .all-cards{
+    width: 100%;
+} */
+
+#cards{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(min-width: 660px){
+    #cards {
+        display: flex;
+        /* flex-direction: column; */
         justify-content: space-evenly;
     }
     
     .card img {
         height: 500px;
-        max-height: 290px;
-        max-width: 290px;
+        min-height: 290px;
+        max-width: 100%;
+        width: 90vw;
         border-radius: 4%;
+        border: 0;
     }
     .card {
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
-        position: relative;
-        left: 150px;
+        min-height: 537px;
+        max-width: 100%;
+        padding: 10px 15px;
+        /* position: relative;
+        left: 150px; */
     }
 }
 @media(min-width: 800px){
-        #cards {
+    #cards {
         display: flex;
-        flex-direction: row;
+        /* flex-direction: column; */
         justify-content: flex-end;
        
     }
     
     .card img {
         height: 500px;
-        max-height: 290px;
-        max-width: 290px;
+        min-height: 290px;
+        max-width: 100%;
         border-radius: 4%;
+        border: 0;
     }
     .card {
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
-        
+        min-height: 537px;
+        max-width: 300px;
+        padding: 30px 20px;
+    }
+
+    .cards{
+        display: flex;
+        min-width: 600px;
+    }
+    
+    .container-fluid{
+        display: flex;
     }
 }
 /*@media(min-width: 1000px){*/

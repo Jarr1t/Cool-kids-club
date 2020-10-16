@@ -18,38 +18,56 @@
             </div>
         </header>
         <div>
-        <script src="https://climateclock.world/widget-v2.js" async></script>
-<climate-clock />
+        <!-- <script src="https://climateclock.world/widget-v2.js" async></script> -->
+<!-- <climate-clock /> -->
         </div>
         <div class="information">
             <article>
-                <h1><u>What You Should Know</u></h1>
-                <p>
-                    Our mission is to prevent the ever encroaching doom that is climate change and 
-                    global warming. In NYC, we simply aren't doing enough to prevent the tragedy that is
-                    our trash crisis. In NYC, we only recycle 18% of our trash at home only going up 7% 
-                    when we're at work to 25%.  
-                </p>
-                <p>
-                    This probably leads you to ask, "But we have more recyclables, why aren't those being recycled?"
-                    The answer to that is sorting, since we would have to search through tons and tons and tons of 
-                    trash, which is unfeasible. As such, we deal with the problem of improperly sorted recyclables, 
-                    which is still incredibly difficult, so much so that we often times resort to burying our recyclables.
-                </p>
+                <section class="banner">
+                    <h1 class="banner-text"><u>What You Should Know</u></h1>            
+                    <div class="banner-img"></div>
+                    <div class="black-angle">           
+                    </div>
+                </section>
+                <!-- <h1><u>What You Should Know</u></h1> -->
             </article>
         </div>
-        <section class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zsi2vWQ2SFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+        <div class="content">
+            <h1>The Issue</h1>
+            <div class="content-container">
+                <section class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zsi2vWQ2SFg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>
+                
+                <div class="info">
+                    <div class="Mission">
+                        <p>
+                            Our mission is to prevent the ever encroaching doom that is climate change and 
+                            global warming. In NYC, we simply aren't doing enough to prevent the tragedy that is
+                            our trash crisis. In NYC, we only recycle 18% of our trash at home only going up 7% 
+                            when we're at work to 25%.  
+                        </p>
+                    </div>
+                    <div class="action">
+                        <p>
+                            This probably leads you to ask, "But we have more recyclables, why aren't those being recycled?"
+                            The answer to that is sorting, since we would have to search through tons and tons and tons of 
+                            trash, which is unfeasible. As such, we deal with the problem of improperly sorted recyclables, 
+                            which is still incredibly difficult, so much so that we often times resort to burying our recyclables.
+                        </p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
         <section id="quiz">
-            <a href="form.html"><input type="submit" value="Take the Quiz!"></a>
+            <a href="form.html"><input id="take-quiz" type="submit" value="Take the Quiz!"></a>
         </section>
         <section class="team">
             <section class="us">
                 <h1><u>How Do We Do It?</u></h1>
             </section>
             <section class="J">
-                <div class="Jarrit">
+                <div class="Jarrit team-member">
                     <p>My family recycles by separating all our plastic bottles 
                     and cardboard from our regular trash. My neighborhood however 
                     struggles with it a bit. For us, we take our plastic bottles
@@ -65,8 +83,8 @@
                         <figcaption>Jarrit A.</figcaption>
                         </figure>
                 </div>
-            </section>
-                <div class="Olivia">
+            </section class="team">
+                <div class="Olivia team-member">
                     <figure>
                     <img src="https://photos.smugmug.com/photos/i-pJprSwJ/0/X4/i-pJprSwJ-X4.jpg"/>
                     <figcaption>Olivia R.</figcaption>
@@ -75,8 +93,8 @@
                         Where I used to live in the city it was easy to get to the recycling machines to deposit the items because the machines were always within walking distance.
                         In my current neighborhood things are not in such close proximity and it feels like its impossible to even find trash cans on the streets. My building has separate bins for recycle and trash so I hope they are recycling properly.</p>
                 </div>
-            <section class="Jas">
-                <div class="Jason">
+            <section class="Jas team">
+                <div class="Jason team-member">
                     <p>I recycle by placing purchased plastic bottle and glass bottles into bottle shreders.
                         Of course the intention behind this responsible recycling was money. Yes, you get money out of these 
                         machines for each bottle, normally it's around 5 cents or so, but moneys still money so I did it anyway.
@@ -91,8 +109,10 @@
                 </div>
             </section>
         </section>
-        <footer>
-                <a href="#">Copyright 2020, Recycling for NY</a>
+        <footer class="footer">
+            <a href="#">
+                    Copyright 2020, Recycling for NY
+            </a>
         </footer>
     </body>
 </html>
