@@ -295,14 +295,16 @@ a{
       }
     }
 
-@media only screen and (min-width: 725px){
+@media only screen and (max-width: 1000px){
     header{
-        height: 5vh;
+        /* height: 5vh; */
+        height: 90px;
 
     }
 
     .banner{
-        height: 30vh;
+        /* height: 30vh; */
+        height: 530px
     }
 
     climate-clock{

@@ -1,8 +1,11 @@
+
+
 body {
     background-color: #b3af8f;
     margin: auto;
-    font-size: 1.5rem;
-    font-family: 'Viga', sans-serif;
+    width: 100%;
+    /* font-size: 1.5rem; */
+    /* font-family: 'Viga', sans-serif; */
 }
 
 #cards {
@@ -21,7 +24,7 @@ body {
     max-width: 290px;
     border-radius: 4%;
     position: relative;
-    left: 3.5px;
+    /* left: 3.5px; */
 }
 .card {
     border-radius: 4%;
@@ -36,7 +39,7 @@ body {
 
 hr {
     position: relative;
-    right: 60px;
+    width: 90%;
     border: none; 
     height: 12px; 
     background: black; 
@@ -55,12 +58,15 @@ footer{
     margin-top: 10px;
 }
 
+.col-md-4{
+    max-width: 100%;
+}
 
 /*Responsive*/
 @media(min-width: 500px){
-        #cards {
+    #cards {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     
@@ -74,23 +80,34 @@ footer{
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
+        max-height: 537px;
+        max-width: 300px;
         position: relative;
         left: 40px;
     }
     .h1{
         position: relative;
-        right: -7px;
+        /* right: -7px; */
         top: 20px;
         margin-bottom: 0;
     }
    
 }
+
+.all-cards{
+    width: 100%;
+}
+
+#cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 @media(min-width: 660px){
-        #cards {
+    #cards {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: space-evenly;
     }
     
@@ -104,16 +121,16 @@ footer{
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
+        max-height: 537px;
+        max-width: 300px;
         position: relative;
         left: 150px;
     }
 }
 @media(min-width: 800px){
-        #cards {
+    #cards {
         display: flex;
-        flex-direction: row;
+        /* flex-direction: column; */
         justify-content: flex-end;
        
     }
@@ -128,8 +145,8 @@ footer{
         border-radius: 4%;
         background-color: #9B4631;
         box-shadow: 5px 10px 8px #888888;
-        height: 537px;
-        width: 300px;
+        max-height: 537px;
+        max-width: 300px;
         
     }
 }
